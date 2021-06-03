@@ -1,0 +1,16 @@
+<div class='container' style='width:100vw;'>
+<center>
+	
+<h1 class='display-1'>Automated Image</h1>
+<h1 class='display-1'>Captioning</h1>
+
+<br>
+<br>
+
+<form action="{{url_for('predict')}}" method='POST' enctype='multipart/form-data'>
+    <input type="file" name='file1'>
+<input type="submit" name="btn" value='predict caption' class='btn btn-warning'> 
+</form>
+</center> 
+</div>
+
